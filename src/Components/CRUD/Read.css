@@ -1,0 +1,28 @@
+.btn-outline-primary, 
+.btn-outline-success,
+.btn-outline-danger {
+  background-color: none;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 15px;
+  width: 80px;
+  font-weight: 600;
+}
+
+.btn-outline-primary, .btn-outline-success, .btn-outline-danger:hover{
+  font-weight: 600;
+}
+
+.two_btn{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+
+tbody > tr > td {
+  color: red;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: sans-serif;
+}
